@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ba2f453c48706af58503c12dba4bf26",
+    "revision": "852a87c92c757b71f3aff57e124c4621",
     "url": "/React-Portfolio/index.html"
   },
   {
-    "revision": "6cbb073a9dce0301ef32",
-    "url": "/React-Portfolio/static/css/main.23731556.chunk.css"
+    "revision": "e506390542d2e38bd65b",
+    "url": "/React-Portfolio/static/css/main.04e20b18.chunk.css"
   },
   {
-    "revision": "c3ed377b11ed4a6fc6ab",
-    "url": "/React-Portfolio/static/js/2.8f3803d3.chunk.js"
+    "revision": "c7965b591b0295ab059e",
+    "url": "/React-Portfolio/static/js/2.a07b7611.chunk.js"
   },
   {
     "revision": "64f54ce285484345cd5e3bd96b120148",
-    "url": "/React-Portfolio/static/js/2.8f3803d3.chunk.js.LICENSE.txt"
+    "url": "/React-Portfolio/static/js/2.a07b7611.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6cbb073a9dce0301ef32",
-    "url": "/React-Portfolio/static/js/main.7a56b331.chunk.js"
+    "revision": "e506390542d2e38bd65b",
+    "url": "/React-Portfolio/static/js/main.1b59d2de.chunk.js"
   },
   {
-    "revision": "53cd5964469ae1da263b",
-    "url": "/React-Portfolio/static/js/runtime-main.01560ae1.js"
+    "revision": "bcebe2d38e8b197ca4b9",
+    "url": "/React-Portfolio/static/js/runtime-main.266d4783.js"
   },
   {
     "revision": "fbdf1a3a22acf8c566ebf36d58ec9b9a",
     "url": "/React-Portfolio/static/media/BhumishaDave.fbdf1a3a.jpg"
+  },
+  {
+    "revision": "ba233ba07637e15b950145c29e3c12fe",
+    "url": "/React-Portfolio/static/media/BhumishaDave_Resume.ba233ba0.pages"
   },
   {
     "revision": "609037618c993cb7e401e1339d4cd198",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83ab26488f3abd5983950c73b2d7c2b9",
     "url": "/React-Portfolio/static/media/ThreesaCrowd.83ab2648.png"
+  },
+  {
+    "revision": "4d217e76a36d3175dc89064e8c1b0e51",
+    "url": "/React-Portfolio/static/media/bgBanner.4d217e76.jpg"
   },
   {
     "revision": "de19b6609c91a5e42d493864102584aa",
