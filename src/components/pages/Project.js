@@ -7,11 +7,12 @@ function Project(props){
     <div className="groupImage">  
             <div className="workgrid-item">
                 {/* <a className="item-1" href={props.link}  target="_blank">  */}
-                  <img src={require(`../../assets/images/${props.imageName}`)} className="projectImage"/>
+                  <img src={require(`../../assets/images/${props.imageName}`)} 
+                  alt={props.name} className="projectImage"/>
                 {/* </a> */}
                 <div className="overlay">
                         <a href={props.link} className="icon">{props.name}`</a>
-                        <a href={props.gitUrl} target="_blank" className="icon" >
+                        <a href={props.gitUrl} rel="noopener noreferrer" target="_blank" className="icon"  >
                                 <FontAwesomeIcon icon={faGithub} />
                         </a>  
                 </div>

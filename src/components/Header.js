@@ -22,14 +22,12 @@ function Headers() {
   return (
     <header>
       <div className="header">
-      <h2>
-        <a data-testid="link" href="/">
+      <h2 className="bannerText">
           Bhumisha Dave
-        </a>
       </h2>
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </div>
-      <section className="MiddleSection">
+      <section className="middleSection">
         {
           // Render the component returned by 'renderPage()'
           renderPage()

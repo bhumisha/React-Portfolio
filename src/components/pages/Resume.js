@@ -1,10 +1,10 @@
 import React from "react";
 
 const Resume = () => (
-  <div>
+  <div className="contentDetail">
     <h4>Resume</h4>
     <br></br>
-    <p>Download my Resule</p>
+    <p>Download my <a href="../../assets/images/BhumishaDave_Resume.pages" download >Resume</a></p>
     <p>Front-end Proficiencies </p>
     <ul>
       <li>HTML</li>
