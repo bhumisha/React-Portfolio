@@ -2,7 +2,8 @@ import React from "react";
 
 const Resume = () => (
   <div>
-    <h1>Resume</h1>
+    <h4>Resume</h4>
+    <br></br>
     <p>Download my Resule</p>
     <p>Front-end Proficiencies </p>
     <ul>
