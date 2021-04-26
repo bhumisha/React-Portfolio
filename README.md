@@ -1,7 +1,8 @@
 # React Portfolio
 
     React Portfolio, Name itself suggest it is user portfolio created in React Js , HTML and JSX. 
-    Project has used React hooks like useState and useEffect. 
+    This project has used React hooks like useState and useEffect. User can view About Me, Projects worked on and Resume of the me.
+    User can also contact to me.
 
 ### Technology 
     - React JS
@@ -30,7 +31,17 @@ This application is deployed on Github pages. PFB link
 https://bhumisha.github.io/React-Portfolio/
 
 ### Images
+About Me
+![](src/assets/images/aboutMe.png)
 
+Porfolio -> On Mouse hover, User can see details.
+![](src/assets/images/portfolio.png)
+
+Contact 
+![](src/assets/images/contact.png)
+
+Resume
+![](src/assets/images/resume.png)
 
 ### Questions
 If you have any additional questions about the repo, open an issue or contact me directly at bhumishadave@gmail.com. 
