@@ -3,6 +3,7 @@ import React from "react";
 const About = () => (
     <div className="contentDetail">
                 <h4>About me</h4>
+                <br></br>
                 <img src={require(`../../assets/images/PortfolioPic1.png`)}  
                      alt="Bhumisha Dave Potrait" 
                      className="aboutMeImg"/>
