@@ -200,30 +200,17 @@ footer a{
   grid-gap: 15px;
   min-height: 450px; 
 }
-/* set all workgrid items css */
-.workgrid-item {
-  /* display: flex;
-  width: var(--maxinumWidth);
+/* set all project grid items css */
+.project-grid {
+  margin: 30px 30px ;
+  position: relative;
+  align-items: center;
+  /* width: var(--maxinumWidth);
+  max-width: 300px;
+  max-height: 300px;
   height: 100%; */
-  position: relative;
-  width: var(--maxinumWidth);
-  max-width: 400px;
-  height: 100%;
-  /* opacity: 0.3; */
 }
-/* grouped image div with anchor tag */
-.groupImage{
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column-reverse;
-  border-radius: 10px;
-  /* border: 1px solid #000000; */
-  font-size: var(--contentFontSize);
- 
-  
-/* Center and scale the image nicely */
-}
+
 .aboutMeImg{
   height: 250px;
   width: 250px;
@@ -287,10 +274,10 @@ nav {
   font-family: var(--cursiveFontFamily);
   height: 100px;
 }
-nav a:hover {
-  text-decoration: none;
+nav li:hover{
+  text-decoration: underline;
+  font-size: 20px;
 }
-
 nav li {
   cursor: pointer;
 }
@@ -460,7 +447,6 @@ nav .active {
 
 div.contactForm {
   border-radius: 5px;
-  
   padding: 20px;
 }
 
@@ -484,10 +470,10 @@ div.contactForm {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  background-color: #acf5fc ;
+  background-color: #83e7f0 ;
 }
 
-.workgrid-item:hover .overlay {
+.project-grid:hover .overlay {
   opacity: 1;
 }
 .overlay:hover {
