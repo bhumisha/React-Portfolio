@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 const App = () => (
-    <div>
+    <div className="appMain">
         <Header/>
         <Footer/>
     </div>

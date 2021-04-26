@@ -13,13 +13,14 @@ function Portfolio (){
   return (
     <div className="contentDetail">
     <h4>Portfolio</h4>
-      <div class="workgrid-wrapper">
+      <div className="workgrid-wrapper">
       {
         projects.map(projectObj => (
           <Project 
             name={projectObj.name} 
             imageName={projectObj.imageName} 
-            link={projectObj.link} />
+            link={projectObj.link} 
+            key={projectObj.name}/>
       ))} 
     </div>
   </div> 

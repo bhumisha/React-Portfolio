@@ -3,7 +3,9 @@ main {
 	margin: 0 auto;
 	max-width: 90%;
   width: 1000px;
-  /* padding: 50px 30px; */
+  height:100vh;
+  
+  
 }
 :root {
   --primary: #8c54ff;
@@ -34,23 +36,23 @@ main {
 
 html,
 body {
-  min-height: 100%;
-  font-family: var(--generalFontFamily);
-}
-
-body {
+  
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-family: var(--generalFontFamily);
   line-height: 1.5;
+  width: 100vw;
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--ligt);
   color: var(--dark);
- 
-
+  min-height: 100%;
+  
 }
 
+.appMain{
+  width: 100%;
+}
 h1,
 h2,
 h3,
@@ -104,7 +106,7 @@ a:hover {
   text-decoration: underline;
 }
 
-header  {
+.header  {
   /* background-color: var(--light-pink); */
   display: flex;
   justify-content:space-between;
@@ -123,7 +125,7 @@ footer{
 footer a{
   padding-right: 0.5rem;
 }
-header a {
+.header a {
   color: var(--dark);
 }
 
@@ -238,6 +240,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  width: 100%;
 }
 
 input:focus {
@@ -289,8 +292,7 @@ nav li {
 } 
 
 textarea {
-	width: 600px;
-	height: 120px;
+	width: 100%;
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
@@ -420,7 +422,17 @@ a {
 	
 }
 
-.active {
+nav .active {
   color: var(--secondary);
 }
 
+#contact-form{
+  width: 100%;
+}
+
+
+div.contactForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
