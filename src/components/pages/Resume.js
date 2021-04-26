@@ -5,7 +5,7 @@ const Resume = () => (
     <h4>Resume</h4>
     <br></br>
     <p>Download my <a href="../../assets/images/BhumishaDave_Resume.pages" download >Resume</a></p>
-    <p>Front-end Proficiencies </p>
+    <h6>Front-end Proficiencies </h6>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
@@ -15,11 +15,15 @@ const Resume = () => (
       <li>React</li>
       <li>Bootstrap</li>
     </ul>
-    <p>Back-end Proficiencies </p>
+    <h6>Back-end Proficiencies </h6>
     <ul>
       <li>APIs</li>
       <li>Node</li>
       <li>Express</li>
+      <li>MySQL, Sequalize</li>
+      <li>MongoDB, Mongoose</li>
+      <li>Rest</li>
+      <li>React</li>
     </ul>
   </div>
 );

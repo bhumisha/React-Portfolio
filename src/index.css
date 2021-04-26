@@ -122,17 +122,18 @@ a:hover {
 .middleSection{
   /* background: var(--light-gray); */
   padding: 20px;
-  background-image: linear-gradient(to right, rgba(172, 245, 252, 0), rgba(172, 245, 252,1));
+  background-image: linear-gradient(to right, rgba(172, 245, 252, 0), rgba(172, 245, 252,0.8));
 }
 footer{
-  background: var(--light);
+  /* background: var(--light); */
   background-image: linear-gradient(to left, rgba(172, 245, 252, 0), rgba(172, 245, 252,1));
   /* background-color: #9bf6ff; */
   text-align: center; 
   font-size: 1.25rem;
 }
 footer a{
-  padding-right: 0.5rem;
+  padding-right: 0.9rem;
+  color: var(--gray-shade);
 }
 .header a {
   color: var(--dark);
@@ -230,7 +231,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  
 }
 
 button:hover {
@@ -267,19 +268,25 @@ input:focus {
 }
 
 li {
-  list-style: none;
+  color: var(--gray-shade);
+    font-size: var(--FontSizeMedium);
+    padding: 2px;
 }
+
 
 nav {
   font-family: var(--cursiveFontFamily);
+  font-size: 15px;
   height: 100px;
+
 }
 nav li:hover{
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 16px;
 }
 nav li {
   cursor: pointer;
+  list-style: none;
 }
 
  .item-1{
@@ -437,7 +444,7 @@ a {
 }
 
 nav .active {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 #contact-form{
