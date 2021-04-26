@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f97cf7f727e081453e5d543066823b1",
+    "revision": "fefb0e66770deb70379f16076dac30d4",
     "url": "/React-Portfolio/index.html"
   },
   {
-    "revision": "c0bbcb169eb0ae0a88fb",
+    "revision": "a865dbb16dbaa0d04ec6",
     "url": "/React-Portfolio/static/css/main.dea47be6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/js/2.a07b7611.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0bbcb169eb0ae0a88fb",
-    "url": "/React-Portfolio/static/js/main.b1996562.chunk.js"
+    "revision": "a865dbb16dbaa0d04ec6",
+    "url": "/React-Portfolio/static/js/main.70621b44.chunk.js"
   },
   {
     "revision": "bcebe2d38e8b197ca4b9",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/media/ThreesaCrowd.83ab2648.png"
   },
   {
+    "revision": "cde1f1e393e0c1e7706b32052adb40a4",
+    "url": "/React-Portfolio/static/media/aboutMe.cde1f1e3.png"
+  },
+  {
     "revision": "4d217e76a36d3175dc89064e8c1b0e51",
     "url": "/React-Portfolio/static/media/bgBanner.4d217e76.jpg"
   },
@@ -48,12 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/media/calc.de19b660.png"
   },
   {
-    "revision": "501111f72e284f8e670e1787aa389d4a",
-    "url": "/React-Portfolio/static/media/calculator1.501111f7.png"
+    "revision": "2ebc99f2fe90a0b2acc1c28a40966d2c",
+    "url": "/React-Portfolio/static/media/contact.2ebc99f2.png"
   },
   {
     "revision": "ffdef9c11c27bb0843c0b832685ad38c",
     "url": "/React-Portfolio/static/media/horiseon.ffdef9c1.png"
+  },
+  {
+    "revision": "cfe16db41effb565d88d2108ac7e8dd5",
+    "url": "/React-Portfolio/static/media/portfolio.cfe16db4.png"
+  },
+  {
+    "revision": "67e6836eb7c6536657d494689a10421d",
+    "url": "/React-Portfolio/static/media/resume.67e6836e.png"
   },
   {
     "revision": "81b39f5287a80383b39c754cbbce9368",
