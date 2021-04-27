@@ -10,10 +10,13 @@ function Project(props){
                   alt={props.name} className="projectImage"/>
                 
                 <div className="overlay">
-                        <a href={props.link} className="icon">{props.name}`</a>
-                        <a href={props.gitUrl} rel="noopener noreferrer" target="_blank" className="icon"  >
-                                <FontAwesomeIcon icon={faGithub} />
-                        </a>  
+                        <div className="overlayDiv">
+                            <a href={props.link} >{props.name}</a>
+                            <a href={props.gitUrl} rel="noopener noreferrer" target="_blank" >
+                                    <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <p>{props.desc}</p>
+                        </div>
                 </div>
             </div>
           

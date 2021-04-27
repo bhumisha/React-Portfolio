@@ -1,12 +1,3 @@
-
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  width: 1000px;
-  height:100vh;
-  
-  
-}
 :root {
   --primary: #2b80e7;
   --secondary: #F3A847;
@@ -36,23 +27,64 @@ main {
 
 html,
 body {
-  
-  margin: 0;
-  padding: 0;
   font-family: var(--generalFontFamily);
   line-height: 1.5;
-  width: 100vw;
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--ligt);
   color: var(--dark);
-  min-height: 100%;
-  
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .appMain{
   width: 100%;
 }
+
+/************* header / footer css *******************/
+
+.header, footer{
+  width: 100%;
+  position: fixed;     
+  display: flex;   
+ 
+}
+.header  {
+  top: 0;
+  height: 150px;
+  display: flex;
+  justify-content:space-between;
+  /* width: var(--maxinumWidth); */
+  padding: 10px 10px 0px 10px;
+  background-image: linear-gradient(to left, rgba(172, 245, 252, 0), rgba(172, 245, 252,1));
+   
+}
+/*****Banner ***************/
+.bannerText {
+  color: var(--gray-shade);
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  margin-left: 30px;
+  font-family: cursive;
+}
+footer{
+  height:50px;
+  background-image: linear-gradient(to left, rgba(172, 245, 252, 0), rgba(172, 245, 252,1));
+  text-align: center; 
+  font-size: 1.25rem;
+  justify-content:center;
+  padding-right: 30px;
+  bottom: 0;
+}
+
+footer a{
+  padding-right: 0.9rem;
+  color: var(--gray-shade);
+}
+.header a {
+  color: var(--dark);
+}
+
+
 h1,
 h2,
 h3,
@@ -71,8 +103,6 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  /* font-family: var(--cursiveFontFamily); */
-
 }
 
 h3 {
@@ -82,6 +112,7 @@ h3 {
 h4 {
   margin: 0px 0;
   font-size: 1.5rem;
+  color: var(--gray-shade);
 }
 
 h5 {
@@ -107,62 +138,17 @@ a:hover {
   text-decoration: underline;
 }
 
-.header  {
-  /* background-color: var(--light-pink); */
-  display: flex;
-  justify-content:space-between;
-  width: var(--maxinumWidth);
-  padding: 10px 10px 0px 10px;
-
-  /* background-image: url("./assets/images/bgBanner.jpg"); */
-  background-image: linear-gradient(to left, rgba(172, 245, 252, 0), rgba(172, 245, 252,1));
-  min-height: 100%;
-  height: 200px;
-}
 .middleSection{
-  /* background: var(--light-gray); */
-  padding: 20px;
-  background-image: linear-gradient(to right, rgba(172, 245, 252, 0), rgba(172, 245, 252,0.8));
+  width: 100%;  
+  margin: 0 auto;
+  justify-content: center;
 }
-footer{
-  /* background: var(--light); */
-  background-image: linear-gradient(to left, rgba(172, 245, 252, 0), rgba(172, 245, 252,1));
-  /* background-color: #9bf6ff; */
-  text-align: center; 
-  font-size: 1.25rem;
-}
-footer a{
-  padding-right: 0.9rem;
-  color: var(--gray-shade);
-}
-.header a {
-  color: var(--dark);
-}
-/*****Banner ***************/
-.banner
-{
-    height: 400px;
-    width: var(--maxinumWidth);
-    background-color:var(--light-pink);
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-image: url("./assets/images/bgBanner.jpg");
-    padding: 50px;
-}
-.bannerText {
-  color: var(--gray-shade);
-  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
-  margin-bottom: 30px;
-  font-family: cursive;
-}
-
 
 /********** Content section starts *******/
 .contentWrapper{
   padding: 0 50px 50px;
   background-image: linear-gradient(to top, rgba(254, 197, 187,0), rgba(254, 197, 187,1));
-  /* padding: 0.4rem; */
+
   width: 100%;
   height: 100%;
 }
@@ -185,12 +171,16 @@ footer a{
   font-size:40px;
   
 }
-
 .contentDetail p{
   color: var(--gray-shade);
   font-size: var(--FontSizeMedium);
   padding: 10px;
+  
 
+}
+.contentDetail{
+  width: 80%;
+  margin:0 auto;
 }
 
 .workgrid-wrapper{
@@ -203,13 +193,9 @@ footer a{
 }
 /* set all project grid items css */
 .project-grid {
-  margin: 30px 30px ;
+  
   position: relative;
-  align-items: center;
-  /* width: var(--maxinumWidth);
-  max-width: 300px;
-  max-height: 300px;
-  height: 100%; */
+  width: 80%;
 }
 
 .aboutMeImg{
@@ -277,12 +263,12 @@ li {
 nav {
   font-family: var(--cursiveFontFamily);
   font-size: 15px;
-  height: 100px;
+  /* height: 100px; */
 
 }
 nav li:hover{
   text-decoration: underline;
-  font-size: 16px;
+  font-size: 17px;
 }
 nav li {
   cursor: pointer;
@@ -292,26 +278,7 @@ nav li {
  .item-1{
   padding: 20px;
 }
-/* .item-1{
-    background-image: url("../../assets/images/simpleSuds.png");
-   width: var(--maxinumWidth);  
-}
-.item-2 {
-  background-image: url("./assets/images/ThreesaCrowd.png"); 
-   width: var(--maxinumWidth);   
-}
-.item-3{
-  background-image: url("./assets/images/calculator.jpeg");
-   width: var(--maxinumWidth);  
-}
-.item-4{
-  background-image: url('./assets/images/horiseon.png');
-   width: var(--maxinumWidth);  
-}
-.item-5{
-  background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder');
-   width: var(--maxinumWidth);  
-}*/
+
 textarea {
 	width: 100%;
 	border: 3px solid #cccccc;
@@ -452,45 +419,119 @@ nav .active {
 }
 
 
-div.contactForm {
-  border-radius: 5px;
-  padding: 20px;
-}
-
 .projectImage {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 80%;
+ 
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.overlay {
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #edfbfd;
 }
 
-.overlay {
+.overlayDiv{
+  color: white;
+  /* font-size: 20px; */
   position: absolute;
   top: 50%;
   left: 50%;
-  bottom: 40%;
-  right: 0; 
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  color: black;
-  font-size: 20px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-  background-color: #83e7f0 ;
+}
+.overlay p{
+  text-align: left; 
 }
 
-.project-grid:hover .overlay {
-  opacity: 1;
-}
 .overlay:hover {
+  animation: App-logo-spin 1 1s linear;
   opacity: 1;
 }
-.projectImage:hover{
-  opacity: 0.2;
-} 
 
-/* 
-.overlay:hover {
-  color: #eee;
-} */
+.project-grid:hover .projectImage:hover{
+  opacity: 1;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  html,
+  body {
+    margin: 0; 
+    padding: 0;
+  
+  }
+  .header {
+      background-size: cover;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      /* height: 750px; */
+      position: relative;
+      opacity: 1;
+  }
+  .contentDetail{
+    width: 100%;
+    padding :0px 10px ;
+    padding-bottom: 50px;
+  }
+  .overlay p{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html,
+  body {
+    margin: 0; 
+    padding: 0;
+    
+  }
+  .header {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 200px;
+      position: relative;
+      opacity: 1;
+  }
+  .middleSection{
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  .contentDetail{
+    width: 100%;
+    padding :0px 15px ;
+    padding-bottom: 50px;
+  }
+  .overlay p{
+    display: none;
+  }
+  .overlay:hover {
+    animation: App-logo-spin 1 1s linear;
+    opacity: 1;
+  }
+  .bannerText{
+    font-size: 2rem;
+  }
+}

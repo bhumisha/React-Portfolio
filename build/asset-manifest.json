@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.dea47be6.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.70621b44.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.70621b44.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
+    "static/js/2.a07b7611.chunk.js": "/React-Portfolio/static/js/2.a07b7611.chunk.js",
+    "static/js/2.a07b7611.chunk.js.map": "/React-Portfolio/static/js/2.a07b7611.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.e6bbee643f9202da538bfed338594ac9.js": "/React-Portfolio/precache-manifest.e6bbee643f9202da538bfed338594ac9.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/main.dea47be6.chunk.css.map": "/React-Portfolio/static/css/main.dea47be6.chunk.css.map",
+    "static/js/2.a07b7611.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a07b7611.chunk.js.LICENSE.txt",
+    "static/media/BhumishaDave.jpg": "/React-Portfolio/static/media/BhumishaDave.fbdf1a3a.jpg",
+    "static/media/BhumishaDave_Resume.pages": "/React-Portfolio/static/media/BhumishaDave_Resume.ba233ba0.pages",
+    "static/media/PortfolioPic1.png": "/React-Portfolio/static/media/PortfolioPic1.60903761.png",
+    "static/media/ThreesaCrowd.png": "/React-Portfolio/static/media/ThreesaCrowd.83ab2648.png",
+    "static/media/aboutMe.png": "/React-Portfolio/static/media/aboutMe.cde1f1e3.png",
+    "static/media/index.css": "/React-Portfolio/static/media/bgBanner.4d217e76.jpg",
+    "static/media/calc.png": "/React-Portfolio/static/media/calc.de19b660.png",
+    "static/media/contact.png": "/React-Portfolio/static/media/contact.2ebc99f2.png",
+    "static/media/horiseon.png": "/React-Portfolio/static/media/horiseon.ffdef9c1.png",
+    "static/media/portfolio.png": "/React-Portfolio/static/media/portfolio.cfe16db4.png",
+    "static/media/resume.png": "/React-Portfolio/static/media/resume.67e6836e.png",
+    "static/media/simpleSuds.png": "/React-Portfolio/static/media/simpleSuds.81b39f52.png",
+    "static/media/weatherReport.png": "/React-Portfolio/static/media/weatherReport.f5e3a0ba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.266d4783.js",
+    "static/js/2.a07b7611.chunk.js",
+    "static/css/main.dea47be6.chunk.css",
+    "static/js/main.70621b44.chunk.js"
+  ]
+}
